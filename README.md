@@ -1,2 +1,17 @@
-# python_syntax_scanner
-A simple syntax scanner in python that shows proof of concept
+# 🐍 Python Syntax Scanner
+
+A lightweight command-line tool that scans a Python project and detects **syntax errors** before any script is executed.
+
+---
+
+## 🚀 Features
+
+- Recursively scans all `.py` files in a given directory.
+- Detects and reports **syntax errors** using Python's built-in `ast` module.
+- Displays results grouped by file and line number.
+- Prints clean, colorless console output for easy redirection or CI integration.
+- Uses only the Python standard library — no external dependencies.
+
+---
+
+## 📦 Project Structure
